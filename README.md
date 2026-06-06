@@ -6,7 +6,7 @@ A dark-themed, ultra-sleek user authorization interface concept designed with a 
 
 ## 🚀 Live Demo
 You can view the live project running on GitHub Pages here:
-👉 **[INSERT YOUR GITHUB PAGES LINK HERE]**
+https://schoolibnbatouta-hash.github.io/my-login-project/
 
 ---
 
