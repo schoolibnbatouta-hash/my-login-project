@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-<body style="background: radial-gradient(circle, #2b0c0a 0%, #050508 100%); color: white; text-align: center; font-family: sans-serif; padding-top: 18vh;"></body>
-<form>
+    <meta charset="UTF-8">
+    <title>Please Sign-In</title>
+</head>
 
-<div style="background-color: #1c1c24; padding: 25px; border-radius: 12px; display: inline-block;">
-<h3 style="color: #c9645c;">please sign-in:</h3>
-<input type="email" style="color: #c9645c;">
-<input type="password" style="color: #c9645c;">
-<button style="color: #050508;" onclick="alert('hi, user123')">sign-in</button>
-<a href="file:///c%3A/Users/zaidvoid/Desktop/web_projects/reset.html" style="color: #c9645c;">forget password?</a>
-</div>
+<body style="background: radial-gradient(circle, #2b0c0a 0%, #050508 100%); color: white; text-align: center; font-family: sans-serif; padding-top: 18vh;">
 
-</form>
-
+    <form>
+        <div style="background-color: #1c1c24; padding: 25px; border-radius: 12px; display: inline-block; width: 320px;">
+            
+            <h3 style="color: #c9645c; margin-top: 0; margin-bottom: 20px;">please sign-in:</h3>
+            
+            <!-- Added placeholder names, padding, and dark backgrounds to the inputs -->
+            <input type="email" placeholder="Email" style="color: #c9645c; margin-bottom: 15px; padding: 8px; border-radius: 6px; border: 1px solid #c9645c; background: #0d0d11; width: 90%;">
+            <br>
+            
+            <input type="password" placeholder="Password" style="color: #c9645c; margin-bottom: 20px; padding: 8px; border-radius: 6px; border: 1px solid #c9645c; background: #0d0d11; width: 90%;">
+            <br>
+            
+            <!-- Styled your working onclick button to give it a cool background -->
+            <button type="button" onclick="alert('hi, user123')" style="background-color: #c9645c; color: #050508; border: none; padding: 10px; border-radius: 6px; font-weight: bold; cursor: pointer; width: 96%; margin-bottom: 15px;">
+                sign-in
+            </button>
+            <br>
+            
+            <!-- 🛠️ FIXED: Changed your local C: drive path to a relative link so it works live on GitHub Pages! -->
+            <a href="reset.html" style="color: #c9645c; text-decoration: none; font-size: 14px;">forget password?</a>
+            
+        </div>
+    </form>
 
 </body>
-</head>
 </html>
